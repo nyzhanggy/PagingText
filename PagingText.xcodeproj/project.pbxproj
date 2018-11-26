@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1584763521ABF1570037B2C5 /* PagingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584763121ABF1570037B2C5 /* PagingEngine.m */; };
+		1584763621ABF1570037B2C5 /* PagingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584763221ABF1570037B2C5 /* PagingTextView.m */; };
+		1584763B21ABF1620037B2C5 /* DDPagingTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584763721ABF1620037B2C5 /* DDPagingTextVC.m */; };
+		1584763C21ABF1620037B2C5 /* DDChooseFontVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1584763A21ABF1620037B2C5 /* DDChooseFontVC.m */; };
+		1584764021ABF44E0037B2C5 /* 华文行楷.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1584763F21ABF44E0037B2C5 /* 华文行楷.ttf */; };
 		4F53EE391D656DB60051879C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F53EE381D656DB60051879C /* main.m */; };
 		4F53EE3C1D656DB60051879C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F53EE3B1D656DB60051879C /* AppDelegate.m */; };
-		4F53EE3F1D656DB60051879C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F53EE3E1D656DB60051879C /* ViewController.m */; };
 		4F53EE421D656DB60051879C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F53EE401D656DB60051879C /* Main.storyboard */; };
 		4F53EE441D656DB60051879C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F53EE431D656DB60051879C /* Assets.xcassets */; };
 		4F53EE471D656DB60051879C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F53EE451D656DB60051879C /* LaunchScreen.storyboard */; };
-		4F53EE501D656DD00051879C /* PagingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F53EE4F1D656DD00051879C /* PagingTextView.m */; };
 		4F53EE521D656DD50051879C /* Text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F53EE511D656DD50051879C /* Text.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1584763121ABF1570037B2C5 /* PagingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagingEngine.m; sourceTree = "<group>"; };
+		1584763221ABF1570037B2C5 /* PagingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagingTextView.m; sourceTree = "<group>"; };
+		1584763321ABF1570037B2C5 /* PagingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagingTextView.h; sourceTree = "<group>"; };
+		1584763421ABF1570037B2C5 /* PagingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagingEngine.h; sourceTree = "<group>"; };
+		1584763721ABF1620037B2C5 /* DDPagingTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPagingTextVC.m; sourceTree = "<group>"; };
+		1584763821ABF1620037B2C5 /* DDChooseFontVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDChooseFontVC.h; sourceTree = "<group>"; };
+		1584763921ABF1620037B2C5 /* DDPagingTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPagingTextVC.h; sourceTree = "<group>"; };
+		1584763A21ABF1620037B2C5 /* DDChooseFontVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDChooseFontVC.m; sourceTree = "<group>"; };
+		1584763F21ABF44E0037B2C5 /* 华文行楷.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华文行楷.ttf"; sourceTree = "<group>"; };
 		4F53EE341D656DB60051879C /* PagingText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagingText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F53EE381D656DB60051879C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F53EE3A1D656DB60051879C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F53EE3B1D656DB60051879C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4F53EE3D1D656DB60051879C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4F53EE3E1D656DB60051879C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4F53EE411D656DB60051879C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F53EE431D656DB60051879C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F53EE461D656DB60051879C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F53EE481D656DB60051879C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F53EE4E1D656DD00051879C /* PagingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagingTextView.h; sourceTree = "<group>"; };
-		4F53EE4F1D656DD00051879C /* PagingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagingTextView.m; sourceTree = "<group>"; };
 		4F53EE511D656DD50051879C /* Text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Text.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +52,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1584763021ABF1570037B2C5 /* PagingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				1584763421ABF1570037B2C5 /* PagingEngine.h */,
+				1584763121ABF1570037B2C5 /* PagingEngine.m */,
+				1584763321ABF1570037B2C5 /* PagingTextView.h */,
+				1584763221ABF1570037B2C5 /* PagingTextView.m */,
+			);
+			path = PagingTextView;
+			sourceTree = "<group>";
+		};
 		4F53EE2B1D656DB60051879C = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +84,12 @@
 			children = (
 				4F53EE3A1D656DB60051879C /* AppDelegate.h */,
 				4F53EE3B1D656DB60051879C /* AppDelegate.m */,
-				4F53EE3D1D656DB60051879C /* ViewController.h */,
-				4F53EE3E1D656DB60051879C /* ViewController.m */,
-				4F53EE4E1D656DD00051879C /* PagingTextView.h */,
-				4F53EE4F1D656DD00051879C /* PagingTextView.m */,
+				1584763821ABF1620037B2C5 /* DDChooseFontVC.h */,
+				1584763A21ABF1620037B2C5 /* DDChooseFontVC.m */,
+				1584763921ABF1620037B2C5 /* DDPagingTextVC.h */,
+				1584763721ABF1620037B2C5 /* DDPagingTextVC.m */,
+				1584763F21ABF44E0037B2C5 /* 华文行楷.ttf */,
+				1584763021ABF1570037B2C5 /* PagingTextView */,
 				4F53EE511D656DD50051879C /* Text.txt */,
 				4F53EE401D656DB60051879C /* Main.storyboard */,
 				4F53EE431D656DB60051879C /* Assets.xcassets */,
@@ -113,7 +134,7 @@
 		4F53EE2C1D656DB60051879C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Ive;
 				TargetAttributes = {
 					4F53EE331D656DB60051879C = {
@@ -147,6 +168,7 @@
 				4F53EE471D656DB60051879C /* LaunchScreen.storyboard in Resources */,
 				4F53EE441D656DB60051879C /* Assets.xcassets in Resources */,
 				4F53EE421D656DB60051879C /* Main.storyboard in Resources */,
+				1584764021ABF44E0037B2C5 /* 华文行楷.ttf in Resources */,
 				4F53EE521D656DD50051879C /* Text.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,9 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F53EE3F1D656DB60051879C /* ViewController.m in Sources */,
-				4F53EE501D656DD00051879C /* PagingTextView.m in Sources */,
+				1584763C21ABF1620037B2C5 /* DDChooseFontVC.m in Sources */,
+				1584763521ABF1570037B2C5 /* PagingEngine.m in Sources */,
 				4F53EE3C1D656DB60051879C /* AppDelegate.m in Sources */,
+				1584763B21ABF1620037B2C5 /* DDPagingTextVC.m in Sources */,
+				1584763621ABF1570037B2C5 /* PagingTextView.m in Sources */,
 				4F53EE391D656DB60051879C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,13 +220,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -241,13 +275,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -312,6 +356,7 @@
 				4F53EE4D1D656DB60051879C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

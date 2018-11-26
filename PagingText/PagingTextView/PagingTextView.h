@@ -1,10 +1,4 @@
-//
-//  PagingTextView.h
-//  MyDemo
-//
-//  Created by Ive on 16/8/17.
-//  Copyright © 2016年 XQ. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
 
